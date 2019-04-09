@@ -8,7 +8,7 @@ public class GithubExample {
 		 * Github 
 		 */
 		
-		System.out.println("Let's calculate distance with this complicated equation:");
+		System.out.println("Let's calculate distance with this simple equation:");
 		System.out.println();
 		Scanner s = new Scanner(System.in);
 		System.out.println("Enter  Velocity :");
