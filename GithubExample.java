@@ -8,17 +8,13 @@ public class GithubExample {
 		 * Github 
 		 */
 		
-		System.out.println("Let's calculate distance with this simple equation:");
-		System.out.println();
+		// okay, trying again to generate a conflict
+		
+		System.out.println("Yet another attempt to generate a conflict");
 		Scanner s = new Scanner(System.in);
-		System.out.println("Enter  Velocity, which is the fancy way to say speed :");
-		// trying again to force a conflict message
-		double velocity = s.nextDouble();
-		System.out.println("Enter time:");
-		double time = s.nextDouble();
-		double distance = velocity * time;
-		System.out.println();
-		System.out.println("Distance is " + distance);
+		System.out.println("Please enter a color:");
+		String color = s.nextLine();
+		System.out.println("The sky is " + color);
 	}
 
 }
